@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2>JavaScript For Loop</h2>
+<p id="demo"></p>
+<script>
+const Player = ["Dhoni", "Virat Kohli", "Rohit Sharma", "K L Rahul", "Shikar Dhawan", "Hardik"];
+let text = "";
+for (let i = 0; i < Player.length; i++) {
+  text += Player[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
